@@ -113,3 +113,13 @@ sysinfo.txt
 ![Pp]ackages/
 ![Pp]roject[Ss]ettings/
 ![Uu]ser[Ss]ettings/[Ee]ditor[Uu]ser[Ss]ettings.json
+
+# 솔루션 파일 제외
+*.sln
+*.slnx
+
+# 패키지 캐시만 제외 (Packages 폴더 자체는 유지되어야 함)
+/[Pp]ackages/[Pp]ackage[Cc]ache/
+
+# 유저 설정 제외
+/[Uu]ser[Ss]ettings/
