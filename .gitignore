@@ -49,8 +49,6 @@ dist/
 *.log
 /[Ll]ibrary/
 /[Ll]ibrary/PackageCache/
-/Packages/PackageCache/
-/ProjectSettings/ProjectVersion.txt  # (선택: 버전 꼬임 방지용)
 
 # ========================
 # OS
