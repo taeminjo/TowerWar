@@ -1,0 +1,79 @@
+# ========================
+# Unity 6.0
+# ========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Addressables 빌드 결과물 (소스는 유지)
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/**/[Bb]uildArtifacts/
+[Aa]ssets/[Ss]tream[Ii]ng[Aa]ssets/aa/
+
+# Asset Store 툴 캐시
+[Aa]ssets/[Aa]sset[Ss]tore-5.x/
+
+# ========================
+# Build 산출물
+# ========================
+*.apk
+*.aab
+*.unitypackage
+*.app
+ExportedProject/
+steamapps/
+
+# ========================
+# Visual Studio / Rider
+# ========================
+.vs/
+.idea/
+*.sln
+*.csproj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pidb
+*.booproj
+
+# ========================
+# OS
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# ========================
+# Steamworks
+# ========================
+steam_appid.txt
+
+# ========================
+# 로그 / 크래시
+# ========================
+*.log
+*.crash
+sysinfo.txt
+
+# ========================
+# Git LFS 트래킹 제외 (LFS로 관리)
+# ========================
+# 아래 확장자는 .gitattributes에서 LFS 설정 권장
+# *.psd, *.fbx, *.mp3, *.ogg, *.wav, *.png (대용량)
+
+# ========================
+# 유지 대상 (명시적 허용)
+# ========================
+![Aa]ssets/
+![Pp]ackages/
+![Pp]roject[Ss]ettings/
+![Uu]ser[Ss]ettings/[Ee]ditor[Uu]ser[Ss]ettings.json
