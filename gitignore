@@ -17,6 +17,7 @@
 # Asset Store 툴 캐시
 [Aa]ssets/[Aa]sset[Ss]tore-5.x/
 
+
 # ========================
 # Build 산출물
 # ========================
@@ -45,6 +46,10 @@ steamapps/
 node_modules/
 dist/
 *.log
+/[Ll]ibrary/
+/[Ll]ibrary/PackageCache/
+/Packages/PackageCache/
+/ProjectSettings/ProjectVersion.txt  # (선택: 버전 꼬임 방지용)
 
 # ========================
 # OS
