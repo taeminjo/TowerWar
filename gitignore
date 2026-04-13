@@ -40,6 +40,11 @@ steamapps/
 *.sln.docstates
 *.pidb
 *.booproj
+.vscode/
+.DS_Store
+node_modules/
+dist/
+*.log
 
 # ========================
 # OS
@@ -51,7 +56,32 @@ steamapps/
 .Trashes
 Thumbs.db
 Desktop.ini
+# Unity 관련 필수 제외 항목
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[MemoryCaptures]/
 
+# 유니티가 자동 생성하는 프로젝트 파일들
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.IDB
+
+# Mac 관련
+.DS_Store
 # ========================
 # Steamworks
 # ========================
