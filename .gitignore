@@ -116,7 +116,9 @@ sysinfo.txt
 # 솔루션 파일 제외
 *.sln
 *.slnx
-
+*.slnx
+TowerDefense_Checklist.md
+TowerDefense_MasterPlan.md
 # 패키지 캐시만 제외 (Packages 폴더 자체는 유지되어야 함)
 /[Pp]ackages/[Pp]ackage[Cc]ache/
 
