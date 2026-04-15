@@ -33,6 +33,7 @@ steamapps/
 # Visual Studio / Rider
 # ========================
 .vs/
+.vscode/
 .idea/
 *.sln
 *.csproj
